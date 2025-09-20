@@ -44,11 +44,6 @@ const {
       <ul class="box_list">
         <li class="box_item" v-for="thing in thingListRef" :key="thing.id">
           <div class="item" :class="{ fin: thing.checked }">
-            <!-- <input
-            type="checkbox"
-            @change="changeCheck(thing.id)"
-            :checked="thing.checked"
-            /> -->
             <p class="item_name">{{ thing.task_item }}</p>
             <p class="item_quantity">&times;&ensp;{{ thing.task_quantity }}</p>
           </div>
