@@ -5,9 +5,9 @@
 <style scoped>
 h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 4.8rem;
   font-family: "Pacifico";
   color: brown;
-  margin-top: 5px;
+  margin-top: 30px;
 }
 </style>

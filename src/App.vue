@@ -1,14 +1,16 @@
 <script setup>
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
+import Manual from "./components/Manual.vue";
 import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-  <div>
+  <div class="operation">
     <Header />
     <Main />
   </div>
+  <Manual />
   <Footer />
 </template>
 
@@ -18,5 +20,8 @@ div {
   border-radius: 16px;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.operation {
+  margin-top: 100px;
 }
 </style>
